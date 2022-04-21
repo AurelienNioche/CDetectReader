@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Pycharm
+.idea
+
+# Django
+read/migrations/*
+!read/migrations/__init__.py
+
