@@ -3,6 +3,8 @@ from django.db import models
 # Create your models here.
 
 class Entry(models.Model):
+
+    user_id = models.IntegerField()
     accelX = models.IntegerField()
     accelY = models.IntegerField()
     accelZ = models.IntegerField()

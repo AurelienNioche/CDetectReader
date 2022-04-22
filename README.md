@@ -9,11 +9,12 @@ Install postgres
 
 ## Create db
 
-    $psql posgres
+    $ psql posgres
 
 -- 
 
     # create database cdetectreader;
+    # exit
 
 
 ## Create superuser for Django

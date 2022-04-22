@@ -2,8 +2,8 @@ import random
 
 from paho.mqtt import client as mqtt_client
 
-
-broker = '192.168.0.14'
+# '172.30.194.93'
+broker = '172.30.194.93'  # '172.30.194.93'   # "172.20.10.3"   # '192.168.0.14'
 port = 1883
 topic = "cdetect/capture"
 # generate client ID with pub prefix randomly
